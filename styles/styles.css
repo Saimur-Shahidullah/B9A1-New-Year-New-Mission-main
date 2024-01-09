@@ -330,7 +330,7 @@
 
 .image-container-1 {
     margin-top: 100px;
-    width: 90%;
+    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -352,6 +352,14 @@
     justify-content: space-between;
     padding-right: 80px;
     gap: 20px;
+}
+
+.image-container-2 img {
+    width: 100%;
+}
+
+.banner-container-1 img {
+    width: 100%;
 }
 
 .newslatter-section {
@@ -421,6 +429,7 @@
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    border-radius: 50px 0px 0px 50px;
 }
 
 .btn {
@@ -431,8 +440,84 @@
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
-    line-height: normal;
     text-transform: capitalize;
     border: none;
     padding: 20px 50px 20px 50px;
+}
+
+.footer-container {
+    background: #070211;
+    margin-top: 100px;
+}
+
+.footer-first {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.footer-p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.contact-call {
+    display: flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+    gap: 10px;
+}
+
+.contact-web {
+    display: flex;
+    color: #FFF;
+    /* display: inline; */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    gap: 10px;
+    /* 166.667% */
+}
+
+.footer-log {
+    max-width: 90%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-credit{
+    display: flex;
+    max-width: 90%;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+
+}
+.footer-credit small{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
