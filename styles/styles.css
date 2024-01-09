@@ -9,33 +9,34 @@
 
 /* Banner Styles */
 .banner {
-    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner\ Image.png");
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner\ Image.png");
     width: 1320px;
     height: 600px;
     background-repeat: no-repeat;
     border-radius: 16px;
-  }
-  
-  .banner-content {
+}
+
+.banner-content {
     padding: 177px 344px;
-  }
-  
-  .new-year-greeting {
+}
+
+.new-year-greeting {
     color: #fff;
     text-align: center;
     font-size: 32px;
     font-weight: 400;
-  }
-  
-  .banner-title {
+}
+
+.banner-title {
     color: #fff;
     text-align: center;
     font-size: 72px;
     font-weight: 900;
-    line-height: 95px; /* 131.944% */
-  }
+    line-height: 95px;
+    /* 131.944% */
+}
 
- /* .banner-container {
+/* .banner-container {
     background-image: url(../resources/Banner\ Image.png);
     margin: 20px;
     width: 1320px;
@@ -72,7 +73,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-} 
+}
 
 /* OFF Section */
 .off-section h2 {
@@ -369,10 +370,12 @@
     padding-right: 70px;
     gap: 20px;
 }
-.image-container-1 img:hover{
+
+.image-container-1 img:hover {
     border-radius: 40px;
 }
-.image-container-2 img:hover{
+
+.image-container-2 img:hover {
     border-radius: 40px;
 }
 
@@ -410,7 +413,6 @@
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
 }
 
 .newslatter-section img {
@@ -555,4 +557,54 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+/* Holiday Section */
+.holiday-section {
+    margin-top: 100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.holiday-span {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday-section h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holiday-section h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-top: 10px;
+}
+
+.holiday-section p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    padding-top: 15px;
+    /* 160% */
 }
